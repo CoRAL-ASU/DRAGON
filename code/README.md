@@ -17,16 +17,16 @@ This repository contains the inference and evaluation code for the paper.
 
 ## Models
 
-| Model | Provider | Scripts |
-|-------|----------|---------|
-| Claude Sonnet 4.6 | AWS Bedrock (batch) | `amazon_bedrock/claude_llama_*.py` |
-| Claude Opus 4.6 | AWS Bedrock (batch) | `amazon_bedrock/claude_llama_*.py` |
-| Llama 4 Maverick 17B | AWS Bedrock (batch) | `amazon_bedrock/claude_llama_*.py` |
-| Kimi K2.5 | AWS Bedrock (realtime) | `amazon_bedrock/kimi_*.py` |
-| Gemini 3 Pro | Google Vertex AI (batch) | `gcp/gemini_*.py` |
-| Gemma3-27B-IT | Local GPU (HuggingFace) | `open_source/gemma3_edge.py` |
-| Qwen3.5-35B-A3B | Local GPU (HuggingFace) | `open_source/qwen3_5_edge.py` |
-| InternVL3-38B | Local GPU (HuggingFace) | `open_source/internvl_edge.py` |
+| Model | Provider |
+|-------|----------|
+| Claude Sonnet 4.6 | AWS Bedrock  | 
+| Claude Opus 4.6 | AWS Bedrock  | 
+| Llama 4 Maverick 17B | AWS Bedrock  | 
+| Kimi K2.5 | AWS Bedrock  | 
+| Gemini 3 Pro | Google Vertex AI |
+| Gemma3-27B-IT | Local GPU (HuggingFace) |
+| Qwen3.5-35B-A3B | Local GPU (HuggingFace) | 
+| InternVL3-38B | Local GPU (HuggingFace) | 
 
 ---
 
