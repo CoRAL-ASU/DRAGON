@@ -73,7 +73,7 @@ DRAGON/
 
 ---
 
-## Quickstart — End-to-End Workflow
+## End-to-End Workflow
 
 The full pipeline has three steps: **data preprocessing → inference → evaluation**.
 All commands below should be run from the `DRAGON/` directory.
