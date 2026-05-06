@@ -10,7 +10,7 @@ Usage:
     python gemini_edge_submit.py \
         --project_id YOUR_GCP_PROJECT_ID \
         --gcs_bucket YOUR_GCS_BUCKET \
-        [--model_id gemini-3.1-flash-lite-preview] \
+        [--model_id gemini-3-pro-preview] \
         [--location us-central1] \
         [--batch_dir ./batches] \
         [--out_dir ./gemini_jobs] \
