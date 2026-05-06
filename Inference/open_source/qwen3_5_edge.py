@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Diagram Attribution inference with Qwen3.5-35B-A3B (multimodal MoE).
-
-Drop-in replacement for gemma3.py — reads the same batch JSONs,
-writes the same prediction format.
-"""
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = os.environ.get("CUDA_VISIBLE_DEVICES", "0")
 
