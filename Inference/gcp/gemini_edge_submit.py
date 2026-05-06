@@ -14,8 +14,6 @@ Usage:
         [--location us-central1] \
         [--batch_dir ./batches] \
         [--out_dir ./gemini_jobs] \
-        [--max_samples 5]   # optional quick test
-        [--dry_run]         # build JSONL locally, skip GCS upload + job submit
 
 Prerequisites:
     pip install google-genai google-cloud-storage pillow
