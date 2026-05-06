@@ -323,7 +323,7 @@ def main():
     )
     parser.add_argument("-b", "--batch_dir",  default="./batches/")
     parser.add_argument("-o", "--pred_dir",   default="./predictions/qwen3_5/")
-    parser.add_argument("--checkpoint",       default="Qwen/Qwen2.5-VL-7B-Instruct",
+    parser.add_argument("--checkpoint",       default="Qwen/Qwen3.5-3.5B-A3B",
                         help="HuggingFace model ID or local path to Qwen3.5")
     parser.add_argument("--temperature",      type=float, default=0.2)
     parser.add_argument("--top_p",            type=float, default=0.7)
