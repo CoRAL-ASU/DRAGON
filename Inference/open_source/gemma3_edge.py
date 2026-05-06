@@ -1,10 +1,4 @@
 # -*- coding: utf-8 -*-
-"""
-Diagram Attribution inference with Gemma-3-27B-IT (multimodal).
-
-Drop-in replacement for internvl.py — reads the same batch JSONs,
-writes the same prediction format.
-"""
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = os.environ.get("CUDA_VISIBLE_DEVICES", "0")
 
