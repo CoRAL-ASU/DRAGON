@@ -37,7 +37,7 @@ from PIL import Image
 from prompts_sage import build_stage1_prompt, build_stage2_prompt
 
 # ---------------------------------------------------------------------------
-DEFAULT_MODEL_ID = "us.anthropic.claude-sonnet-4-6"
+DEFAULT_MODEL_ID = "moonshotai.kimi-k2.5"
 DEFAULT_REGION = "us-east-1"
 MAX_RETRIES = 5
 
