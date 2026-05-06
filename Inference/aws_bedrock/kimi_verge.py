@@ -11,7 +11,6 @@ Usage:
     python kimi_verge.py \
         [--batch_dir  batches/] \
         [--pred_dir   prediction_bedrock_selfcorrect/] \
-        [--model_id   us.anthropic.claude-sonnet-4-6] \
         [--workers N] \
         
 """
@@ -38,7 +37,7 @@ from PIL import Image
 from prompts_verge import build_verify_and_refine_prompt
 
 # ---------------------------------------------------------------------------
-DEFAULT_MODEL_ID = "us.anthropic.claude-sonnet-4-6"
+DEFAULT_MODEL_ID = "moonshotai.kimi-k2.5
 DEFAULT_REGION = "us-east-1"
 MAX_RETRIES = 5
 
