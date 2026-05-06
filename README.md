@@ -9,7 +9,7 @@ This directory contains the inference and evaluation code for the paper **"DRAGO
 ## Repository Structure
 
 ```
-neurips_submission/
+DRAGON/
 ├── data_preprocessing/
 │   ├── data_loading.py         # Builds batches/*.json from the raw dataset
 │   └── data_preprocessing.py  # Image resizing and base64 encoding utilities
