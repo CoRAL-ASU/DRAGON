@@ -12,8 +12,8 @@ Usage:
         [--batch_dir  batches/] \
         [--pred_dir   prediction_bedrock_selfcorrect/] \
         [--model_id   us.anthropic.claude-sonnet-4-6] \
-        [--workers 10] \
-        [--max_samples 5]
+        [--workers N] \
+        
 """
 
 import os
