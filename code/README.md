@@ -60,7 +60,7 @@ code/
 │
 └── open_source/                # Local GPU inference (HuggingFace)
     ├── gemma3_edge.py          # EDGE  — Gemma3-27B
-    ├── qwen3_5_edge.py         # EDGE  — Qwen2.5-VL
+    ├── qwen3_5_edge.py         # EDGE  — Qwen3.5-3.5B-A3B
     ├── internvl_edge.py        # EDGE  — InternVL3-38B
     ├── sage_inference.py       # SAGE  — all 3 models via --model flag
     └── verge_inference.py      # VERGE — all 3 models via --model flag
