@@ -287,8 +287,8 @@ python eval_script.py \
 Results are written to `--out_dir` (defaults to `<pred_dir>/eval/` if omitted). A combined summary across all datasets is saved as `all_datasets_summary.json`.
 
 **Metrics reported:**
-- **MaxIoU / MeanIoU** — bounding box overlap per sample
-- **GroupIoU (GIoU)** — set-level IoU treating all predicted and ground-truth boxes as groups
+- **Max-Pair IoU (MPIoU)** — bounding box overlap per sample
+- **Grounding IoU (GIoU)** — set-level IoU treating all predicted and ground-truth boxes as groups
 - **Hit-rate @ τ** for τ ∈ {0.1, 0.3, 0.5, 0.7} — fraction of samples with IoU above threshold (reported for both MaxIoU and GIoU)
 - **Recall / Precision / F1** — element-level matching
 
