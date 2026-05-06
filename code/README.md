@@ -1,4 +1,4 @@
-# Dragon — Inference & Evaluation Code
+# Diagram Attribution — Inference & Evaluation Code
 
 This repository contains the inference and evaluation code for the paper.  
 
@@ -25,7 +25,7 @@ This repository contains the inference and evaluation code for the paper.
 | Kimi K2.5 | AWS Bedrock (realtime) | `amazon_bedrock/kimi_*.py` |
 | Gemini 3 Pro | Google Vertex AI (batch) | `gcp/gemini_*.py` |
 | Gemma3-27B-IT | Local GPU (HuggingFace) | `open_source/gemma3_edge.py` |
-| Qwen2.5-VL | Local GPU (HuggingFace) | `open_source/qwen3_5_edge.py` |
+| Qwen3.5-35B-A3B | Local GPU (HuggingFace) | `open_source/qwen3_5_edge.py` |
 | InternVL3-38B | Local GPU (HuggingFace) | `open_source/internvl_edge.py` |
 
 ---
@@ -220,7 +220,7 @@ python open_source/gemma3_edge.py \
     -b ./batches/ -o ./predictions/gemma3_edge/
 
 python open_source/qwen3_5_edge.py \
-    --checkpoint Qwen/Qwen2.5-VL-7B-Instruct \
+    --checkpoint Qwen/Qwen3.5-35B-A3B \
     -b ./batches/ -o ./predictions/qwen3_5_edge/
 
 python open_source/internvl_edge.py \
