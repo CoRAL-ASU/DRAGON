@@ -1,4 +1,4 @@
-# Diagram Attribution — Inference & Evaluation Code
+# Dragon — Inference & Evaluation Code
 
 This repository contains the inference and evaluation code for the paper.  
 
