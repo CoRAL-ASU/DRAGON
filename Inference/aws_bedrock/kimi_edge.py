@@ -10,7 +10,6 @@ Usage:
     python kimi_edge.py \
         [--batch_dir ./batches] \
         [--pred_dir  ./predictions/kimi] \
-        [--max_samples 1]   # quick test
 """
 
 import os
