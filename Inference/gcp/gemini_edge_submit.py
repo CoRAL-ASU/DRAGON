@@ -167,7 +167,7 @@ def main():
     parser.add_argument("--location",       default=DEFAULT_LOCATION,
                         help="Vertex AI region (default: us-central1)")
     parser.add_argument("--model_id",       default=DEFAULT_MODEL_ID,
-                        help="Gemini model ID (default: gemini-3.1-flash-lite-preview)")
+                        help="Gemini model ID (default: gemini-3-pro-preview)")
     parser.add_argument("--batch_dir",      default="./batches")
     parser.add_argument("--out_dir",        default="./gemini_jobs",
                         help="Local dir to save meta JSONs + job summary")
