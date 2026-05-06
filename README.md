@@ -12,7 +12,7 @@ This directory contains the inference and evaluation code for the paper **"DRAGO
 DRAGON/
 ├── data_preprocessing/
 │   ├── data_loading.py         # Builds batches/*.json from the raw dataset
-│   └── data_preprocessing.py  # Image resizing and base64 encoding utilities
+│   └── data_preprocessing.py  # Image resizing
 │
 ├── prompts/
 │   ├── prompts_edge.py         # EDGE prompt template
@@ -76,7 +76,7 @@ DRAGON/
 ## Quickstart — End-to-End Workflow
 
 The full pipeline has three steps: **data preprocessing → inference → evaluation**.
-All commands below should be run from the `code/` directory.
+All commands below should be run from the `DRAGON/` directory.
 
 ---
 
@@ -235,7 +235,6 @@ python Inference/gcp/gemini_verge_submit.py finalize \
 #### Open-Source Models
 
 **Prerequisites:** `pip install torch transformers pillow tqdm`
-**Hardware:** Multi-GPU recommended. Set `CUDA_VISIBLE_DEVICES` to control GPU assignment.
 
 **EDGE** (one dedicated script per model)
 ```bash
