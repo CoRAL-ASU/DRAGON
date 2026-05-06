@@ -14,7 +14,7 @@ Usage:
         [--poll_interval 60] \
         [--skip_poll]   # if jobs are already complete
 
-Output format (same as bedrock/gemma3):
+Output format:
   pred_<dataset>.json: list of dicts with keys:
   sample_id, uid, q_id, dataset, gt_boxes_key, gt_boxes_raw,
   pred_raw_reply, pred_answer_str, pred_explanation_str,
