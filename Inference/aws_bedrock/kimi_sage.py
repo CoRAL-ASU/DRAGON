@@ -11,7 +11,6 @@ Usage:
     python kimi_sage.py \
         [--batch_dir  batches/] \
         [--pred_dir   predictions/kimi_sage/] \
-        [--model_id   us.anthropic.claude-sonnet-4-6] \
         [--workers N] \
 """
 
