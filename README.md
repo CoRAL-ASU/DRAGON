@@ -2,15 +2,9 @@
 
 This directory contains the inference and evaluation code for the paper **"DRAGON: A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams"**.
 
-<br>
-
-| Resource | Access Link | Platform |
-| :--- | :--- | :--- |
-| **Project Homepage** | [coral-lab-asu.github.io/DRAGON](https://coral-lab-asu.github.io/DRAGON/) | GitHub Pages |
-| **Source Code** | [CoRAL-ASU/DRAGON](https://github.com/CoRAL-ASU/DRAGON) | GitHub Repository |
-| **Benchmark Dataset** | [fharbfurefu/dragon](https://www.kaggle.com/datasets/fharbfurefu/dragon) | Kaggle Datasets |
-
-<br>
+<p align="center">
+  <a href="https://coral-lab-asu.github.io/DRAGON/"><img src="https://shields.io"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/CoRAL-ASU/DRAGON"><img src="https://shields.io"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.kaggle.com/datasets/fharbfurefu/dragon"><img src="https://shields.io"/></a>
+</p>
 
 
 ![Architecture](assets/architechture.png)
