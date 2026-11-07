@@ -1,7 +1,17 @@
 # DRAGON:A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams
 
 This directory contains the inference and evaluation code for the paper **"DRAGON: A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams"**.
-**[🌐 Website](https://coral-lab-asu.github.io/DRAGON/) | [💻 Code](https://github.com/CoRAL-ASU/DRAGON) | [📊 Dataset](https://www.kaggle.com/datasets/fharbfurefu/dragon)**
+
+<br>
+
+| Resource | Access Link | Platform |
+| :--- | :--- | :--- |
+| **Project Homepage** | [coral-lab-asu.github.io/DRAGON](https://coral-lab-asu.github.io/DRAGON/) | GitHub Pages |
+| **Source Code** | [CoRAL-ASU/DRAGON](https://github.com/CoRAL-ASU/DRAGON) | GitHub Repository |
+| **Benchmark Dataset** | [fharbfurefu/dragon](https://www.kaggle.com/datasets/fharbfurefu/dragon) | Kaggle Datasets |
+
+<br>
+
 
 ![Architecture](assets/architechture.png)
 
