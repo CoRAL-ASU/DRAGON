@@ -3,9 +3,18 @@
 This directory contains the inference and evaluation code for the paper **"DRAGON: A Benchmark for Evidence-Grounded Visual Reasoning over Diagrams"**.
 
 <p align="center">
-  <a href="https://coral-lab-asu.github.io/DRAGON/"><img src="https://shields.io"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://github.com/CoRAL-ASU/DRAGON"><img src="https://shields.io"/></a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.kaggle.com/datasets/fharbfurefu/dragon"><img src="https://shields.io"/></a>
+  <a href="https://coral-lab-asu.github.io/DRAGON/">
+    <img src="https://img.shields.io/badge/🌐_Project-Page-4285F4?style=for-the-badge&logoColor=white" alt="Project Page"/>
+  </a>
+  &nbsp;
+  <a href="https://github.com/CoRAL-ASU/DRAGON">
+    <img src="https://img.shields.io/badge/GitHub-Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Code"/>
+  </a>
+  &nbsp;
+  <a href="https://www.kaggle.com/datasets/fharbfurefu/dragon">
+    <img src="https://img.shields.io/badge/Kaggle-Dataset-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" alt="Kaggle Dataset"/>
+  </a>
 </p>
-
 
 ![Architecture](assets/architechture.png)
 
