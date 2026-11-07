@@ -4,6 +4,12 @@ This directory contains the inference and evaluation code for the paper **"DRAGO
 
 ![Architecture](assets/architechture.png)
 
+[![Website](https://shields.io🌐-blue?style=for-the-badge&logoColor=white)](https://coral-lab-asu.github.io/DRAGON/)
+[![GitHub](https://shields.io💻-black?style=for-the-badge&logo=github)](https://github.com/CoRAL-ASU/DRAGON)
+[![Kaggle](https://shields.io📊-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/fharbfurefu/dragon)
+
+**[🌐 Website](https://coral-lab-asu.github.io/DRAGON/) | [💻 Code](https://github.com/CoRAL-ASU/DRAGON) | [📊 Dataset](https://www.kaggle.com/datasets/fharbfurefu/dragon)**
+
 ---
 
 ## Repository Structure
